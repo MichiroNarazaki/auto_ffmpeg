@@ -1,0 +1,59 @@
+ffmpeg version 4.3.1 Copyright (c) 2000-2020 the FFmpeg developers
+  built with Apple clang version 11.0.3 (clang-1103.0.32.62)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/4.3.1_1 --enable-shared --enable-pthreads --enable-version3 --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librtmp --enable-libspeex --enable-libsoxr --enable-videotoolbox --disable-libjack --disable-indev=jack
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'sample0914_1.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.45.100
+  Duration: 00:01:24.03, start: 0.000000, bitrate: 3940 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1920x1080, 3864 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      handler_name    : Core Media Video
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : Core Media Audio
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+  Stream #0:1 -> #0:1 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+[silencedetect @ 0x7fe7be676100] silence_start: 0
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.45.100
+    Stream #0:0(und): Video: wrapped_avframe, yuv420p, 1920x1080, q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : Core Media Video
+      encoder         : Lavc58.91.100 wrapped_avframe
+    Stream #0:1(und): Audio: pcm_s16le, 44100 Hz, mono, s16, 705 kb/s (default)
+    Metadata:
+      handler_name    : Core Media Audio
+      encoder         : Lavc58.91.100 pcm_s16le
+[silencedetect @ 0x7fe7be676100] silence_end: 2.07014 | silence_duration: 2.07014
+[silencedetect @ 0x7fe7be676100] silence_start: 2.61605
+frame=  498 fps=0.0 q=-0.0 size=N/A time=00:00:17.02 bitrate=N/A speed=33.7x    [silencedetect @ 0x7fe7be676100] silence_end: 25.0581 | silence_duration: 22.442
+[silencedetect @ 0x7fe7be676100] silence_start: 25.74
+frame= 1076 fps=1070 q=-0.0 size=N/A time=00:00:36.29 bitrate=N/A speed=36.1x    [silencedetect @ 0x7fe7be676100] silence_end: 45.9833 | silence_duration: 20.2432
+[silencedetect @ 0x7fe7be676100] silence_start: 46.0026
+frame= 1631 fps=1083 q=-0.0 size=N/A time=00:00:54.82 bitrate=N/A speed=36.4x    [silencedetect @ 0x7fe7be676100] silence_end: 68.9863 | silence_duration: 22.9837
+[silencedetect @ 0x7fe7be676100] silence_start: 69.0357
+[silencedetect @ 0x7fe7be676100] silence_end: 70.3219 | silence_duration: 1.28615
+[silencedetect @ 0x7fe7be676100] silence_start: 70.3976
+frame= 2187 fps=1090 q=-0.0 size=N/A time=00:01:13.37 bitrate=N/A speed=36.6x    [silencedetect @ 0x7fe7be676100] silence_end: 82.5155 | silence_duration: 12.118
+[silencedetect @ 0x7fe7be676100] silence_start: 82.7258
+frame= 2517 fps=1095 q=-0.0 Lsize=N/A time=00:01:24.00 bitrate=N/A speed=36.6x    
+video:1317kB audio:7236kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[silencedetect @ 0x7fe7be676100] silence_end: 84.0098 | silence_duration: 1.28404
