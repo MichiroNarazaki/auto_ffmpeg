@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #編集前動画のパス
-base_movie=./movie/sample0914_1.mp4
+base_movie=#/movie/path/
 
 #===============================================
 #===============find_edit_point=================

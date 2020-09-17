@@ -1,13 +1,12 @@
-# 機能
+# 音が発生した時点から10秒間のみを抽出し、それらの動画を結合して1つの動画に編集します
 
-カロリー計算
-ジャンプログ
-youtube埋め込み
+# HOW TO USE
 
-元素材投げたら編集後を返してくれるwebサイト
-
-# how to use
-
-0. last.sh の base_movieに編集元動画のパスを入力
-1. bash ffmpeg.sh // ffmpegで無音時間の詳細などを出力
-2. bash time.sh // 出力詳細を整形
+1. cd libft
+2. make
+3. cd ../
+4. vi main.sh
+5. write the origin movie path
+6. save (esc -> :wq -> enter)
+7. ./main.sh
+8. You can watch the movie you want.
