@@ -2,8 +2,11 @@
 
 ### 音が発生した時点から10秒間のみを抽出し、それらの動画を結合して1つの動画に編集します
 
+### ffmpeg のインストールが必要です
 
-# HOW TO USE
+mac -> brew install ffmpeg
+
+# 使い方
 
 1.  cd libft
 2.  make
