@@ -8,5 +8,6 @@ youtube埋め込み
 
 # how to use
 
+0. last.sh の base_movieに編集元動画のパスを入力
 1. bash ffmpeg.sh // ffmpegで無音時間の詳細などを出力
 2. bash time.sh // 出力詳細を整形
