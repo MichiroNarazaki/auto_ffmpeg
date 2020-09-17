@@ -1,0 +1,6 @@
+[submodule "libft"]
+	path = libft
+	url = https://github.com/MichiroNarazaki/Libft
+[submodule "gnl"]
+	path = gnl
+	url = https://github.com/MichiroNarazaki/get_next_line
