@@ -8,7 +8,7 @@ mac -> brew install ffmpeg
 
 # 使い方
 
-0.  git clone --recursive https://github.com/MichiroNarazaki/auto_ffmpeg
+0.  git clone --recursive https://github.com/lowzzy/auto_ffmpeg
 1.  cd libft
 2.  make
 3.  cd ../
